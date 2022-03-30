@@ -5,9 +5,6 @@
 @section('content')
   <main>
     <h1>Homepage</h1>
-    <ul>
-      <li><a href="{{route('home')}}">Home</a></li>
-      <li><a href="{{route('listFilm')}}">List Film</a></li>
-    </ul>
+    <span>Go to List Movie, to see the movie</span>
   </main>
 @endsection

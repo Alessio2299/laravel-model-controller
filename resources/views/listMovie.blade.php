@@ -1,14 +1,10 @@
 @extends('layouts.base')
 
-@section('pageTitle', 'List Film')
+@section('pageTitle', 'List Movie')
 
 @section('content')
   <main>
-    <h1>List Film</h1>
-    <ul>
-      <li><a href="{{route('home')}}">Home</a></li>
-      <li><a href="{{route('listFilm')}}">List Film</a></li>
-    </ul>
+    <h1>List Movie</h1>
     <ul>
       @foreach ($movies as $movie)
       <li>{{$movie->title}}
