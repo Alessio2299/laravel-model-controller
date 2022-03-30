@@ -4,7 +4,7 @@
 
 @section('content')
   <main>
-    <h1>Homepage</h1>
-    <span>Go to List Movie, to see the movie</span>
+    <h1 class="title">Homepage</h1>
+    <span class="info">Go to List Movie, to see the movie</span>
   </main>
 @endsection
